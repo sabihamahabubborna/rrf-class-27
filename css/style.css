@@ -1,0 +1,165 @@
+/* Base css */
+body{
+
+	background: #fff;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+margin: 0 0 15px;
+font-weight: 700;
+font-family: 'Poppins', sans-serif;
+}
+body{
+	font-family: 'Muli', sans-serif;
+}
+a:hover{text-decoration: none;
+}
+.portfolio-bg-1{
+    background-image: url(../img/1.jpg);
+}
+.portfolio-bg-2{
+    background-image: url(../img/2.jpg);
+}
+.portfolio-bg-3{
+    background-image: url(../img/3.png);
+}
+.portfolio-bg-4{
+    background-image: url(../img/4.png);
+}
+.portfolio-bg-5{
+    background-image: url(../img/5.jpg);
+}
+.portfolio-bg-6{
+    background-image: url(../img/6.jpg);
+}
+.portfolio-bg-7{
+    background-image: url(../img/8.png);
+}
+.portfolio-bg-8{
+    background-image: url(../img/9.jpg);
+}
+.portfolio-bg-9{
+    background-image: url(../img/10.jpg);
+}
+.portfolio-bg-10{
+    background-image: url(../img/11.jpg);
+}
+.portfolio-bg-11{
+    background-image: url(../img/1.jpg);
+}
+.logo a {color: #000;}
+
+.logo h1 {
+    font-size: 22px;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+    display: inline-block;
+    position: relative;
+}
+
+.logo span {
+    font-size: 5px;
+    position: absolute;
+    right: -14px;
+    top: 3px;
+}
+
+.menu-trigger span {
+    display: block;
+    height: 2px;
+    background: #000;
+    transition: .2s;
+}
+
+.menu-trigger span:nth-child(2) {
+    margin-bottom: 5px;
+    margin: 7px 0;
+}
+
+.menu-trigger {
+    width: 30px;
+    display: inline-block;
+}
+
+.menu-trigger:hover span:nth-child(1), .menu-trigger:hover span:nth-child(3) {
+    margin: 0 5px;
+}
+.header-area {
+    padding: 40px 38px;
+}
+
+.single-portfolio-item {
+    float: left;
+    width: 25%;
+    height: 330px;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+.header-area {
+    padding: 40px 38px;
+}
+
+.single-portfolio-item {
+    float: left;
+    width: 25%;
+    height: 330px;
+    background-size: 100%;
+    background-position: center;
+    background-color: #000;
+    display: table;
+    transition: .5s;
+}
+.portfolio-hover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.portfolio-hover a {
+    color: #000;
+}
+
+.portfolio-hover h2 {
+    font-size: 24px;
+}
+
+.portfolio-hover p {
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: .5;
+}
+
+.portfolio-hover p:hover {
+    opacity: 1;
+}
+
+.single-portfolio-item:hover .portfolio-hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.single-portfolio-item:hover {
+    background-size: 120%;
+}
+
+
+
